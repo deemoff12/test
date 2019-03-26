@@ -17,7 +17,7 @@ int main()
         sf::CircleShape square(20.f , 4);
         float squaresize = 20.f;
 
-        square.setFillColor(sf::Color::White);
+        square.setFillColor(sf::Color::Red);
         square.setOutlineThickness(-1);
         square.setOutlineColor(sf::Color::Black);
         window.clear(sf::Color::Green);
